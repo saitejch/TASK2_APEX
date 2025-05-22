@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reach Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Reach Us</h1>
+  </header>
+
+  <main>
+    <!-- Contact Form -->
+    <form id="contactForm">
+      <h2>Interact with Us</h2>
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Feedback Section -->
+    <div class="todo-container">
+      <h2>Feedback</h2>
+      <div class="todo-input">
+        <input type="text" id="todoInput" placeholder="Add a new feedback..." />
+        <button onclick="addTodo()">Add Feedback</button>
+      </div>
+      <ul id="todoList"></ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
